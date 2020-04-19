@@ -3,14 +3,13 @@
 .App {
     background: #c2c2c2;
     padding: 16px;
-    @include borders(white,#999)
-
+    @include borders(white, #999);
 }
 
 .Header {
     background: #c0c0c0;
     padding: 10px 12px;
-    @include borders(#7b7b7b,white);
+    @include borders(#7b7b7b, white);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +17,7 @@
 
 .Body {
     margin-top: 16px;
-    @include borders(#7b7b7b,white);
+    @include borders(#7b7b7b, white);
     display: grid;
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(9, 1fr);
@@ -29,6 +28,7 @@
     height: 52px;
     font-size: 35px;
     @include borders;
+    @include buttons;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import './App.scss';
 import NumberDisplay from '../number-display/number-display';
-import { genrateCells } from '../../utills/index';
+import { generateCells } from '../../utills/index';
 import Button from '../button/Button';
 
 
 const App: React.FC = () => {
 
-    const [cells, setCells] = useState(genrateCells());
+    const [cells, setCells] = useState(generateCells());
+    console.log("cells ", cells);
 
     const renderCells = (): React.ReactNode => {
         return cells.map((row, rowIndex) => {
-           return row.map((cell, colIndex) => {
-               return <Button key={`${rowIndex}-${colIndex}`} />
+            return row.map((cell, colIndex) => {
+                return <Button key={`${rowIndex}-${colIndex}`} state={cell.state} value={cell.value} row={rowIndex}  col={colIndex}/>
             })
         })
     }

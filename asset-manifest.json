@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/minesweeper-react-ts/static/css/main.93eddc51.chunk.css",
+    "main.js": "/minesweeper-react-ts/static/js/main.875db678.chunk.js",
+    "main.js.map": "/minesweeper-react-ts/static/js/main.875db678.chunk.js.map",
+    "runtime-main.js": "/minesweeper-react-ts/static/js/runtime-main.8a0c0c6d.js",
+    "runtime-main.js.map": "/minesweeper-react-ts/static/js/runtime-main.8a0c0c6d.js.map",
+    "static/js/2.af1ca94e.chunk.js": "/minesweeper-react-ts/static/js/2.af1ca94e.chunk.js",
+    "static/js/2.af1ca94e.chunk.js.map": "/minesweeper-react-ts/static/js/2.af1ca94e.chunk.js.map",
+    "index.html": "/minesweeper-react-ts/index.html",
+    "precache-manifest.7a5382bb5e77428407b1fb62632f9f8f.js": "/minesweeper-react-ts/precache-manifest.7a5382bb5e77428407b1fb62632f9f8f.js",
+    "service-worker.js": "/minesweeper-react-ts/service-worker.js",
+    "static/css/main.93eddc51.chunk.css.map": "/minesweeper-react-ts/static/css/main.93eddc51.chunk.css.map",
+    "static/js/2.af1ca94e.chunk.js.LICENSE.txt": "/minesweeper-react-ts/static/js/2.af1ca94e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a0c0c6d.js",
+    "static/js/2.af1ca94e.chunk.js",
+    "static/css/main.93eddc51.chunk.css",
+    "static/js/main.875db678.chunk.js"
+  ]
+}

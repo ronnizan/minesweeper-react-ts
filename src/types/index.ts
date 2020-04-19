@@ -19,4 +19,11 @@ export enum CellState {
 }
 
 
-export type Cell = { value: CellValue, state: CellState }
+export type Cell = { value: CellValue, state: CellState,red?:boolean }
+
+export enum Face {
+    smile = "🙂",
+    worried = '😲',
+    lost = '☹️',
+    won = '🏅'
+}

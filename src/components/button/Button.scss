@@ -14,11 +14,15 @@
         border-color: #7b7b77;
         border-width: 1px;
     }
+    &.red {
+        background: red;
+    }
 
     span {
         margin-left: 2px;
         font-size: 12px;
     }
+
     &.value-1 {
         color: blue;
     }
@@ -44,4 +48,3 @@
         color: gray;
     }
 }
-
